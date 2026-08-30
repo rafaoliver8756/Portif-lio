@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+    body {
+        margin: 0;
+        padding:0;
+        color: #ffff;
+        font-family: "JetBrains Mono";
+        background-image: linear-gradient(to right, #a5aacc, #121212);
+        }
+
+        .botao-nav {
+            display: flex;
+            justify-content: space-between;
+            width: 30px;
+            height: 20px; 
+            background: transparent;
+            flex-direction: column;
+            border: none;
+            padding: 0;
+            margin: 0;
+            
+
+        }
+        .botao-nav span { 
+        display: block;
+        width: 100%;              
+        height: 3px;
+        background-color: white;
+        border-radius: 3px;
+        
+
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 40px;
+        }
+        .navegacao-inicial {
+            display: flex;
+            align-items: center;
+            padding-right: 80px;
+            text-decoration: none;
+            gap: 40px;
+            font-size: 16px;
+            font-family: "JetBrains Mono";
+            justify-content:flex-end;
+            margin: 0;
+            padding: 0;
+
+        }
+        ul {
+            list-style: none;
+            font-size: 20px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /*nevagação encerrada*/
+        .bloco1 {
+            display:flex;
+            flex-direction: row-reverse; 
+            border: 4px solid red;
+            padding: 80px;
+            
+
+        }
+        .minha-foto {
+            display: flex;
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+            padding: 20px;
+            margin-right: 80px;
+            object-fit: cover;
+
+        }
+        .minha-foto img {
+            clip-path: circle(50%);
+        } 
+        #sobre-mim {
+            display: flex;
+            color: rgb(202, 202, 217);
+            flex-direction: column;
+            border: 6px solid pink;
+            
+        }
+        #sobre-mim h2 {
+            font-size: 30px;
+        }
+        #sobre-mim p {
+            font-size: 20px;
+        }
+        /*Bloco 2*/
+        #habilidades-e-ferramentas img {
+            display: flex;
+            border: 4px solid rgb(134, 112, 244);
+            width: 200px;
+            height: 200px;
+            
+        }
+        #habilidades-e-ferramentas h2 {
+            font-size: 40px;
+        }
+        .fotos-ferramentas{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 40px;
+            background: rgb(66, 65, 65);
+        }
+
+        /*colocar hover nos links
+        ver melhor cor para os textos
+        tirar bordas coloridas
+        colocar click no botão
+        responsividade
+        */
+    
