@@ -8,7 +8,7 @@
         background-image: linear-gradient(to right, #a5aacc, #121212);
         }
 
-        .botao-nav {
+        .botao-nav button{
             display: flex;
             justify-content: space-between;
             width: 30px;
@@ -18,6 +18,7 @@
             border: none;
             padding: 0;
             margin: 0;
+            gap: 5px;
             
 
         }
@@ -47,12 +48,14 @@
             justify-content:flex-end;
             margin: 0;
             padding: 0;
-
         }
-        ul {
+        .navegacao-inicial li {
+            display: flex;
             list-style: none;
             font-size: 20px;
         }
+    
+        
         a {
             color: white;
             text-decoration: none;
@@ -62,18 +65,21 @@
         .bloco1 {
             display:flex;
             flex-direction: row-reverse; 
-            border: 4px solid red;
-            padding: 80px;
+            padding: 20px 50px 50px 50px;
             
 
+        }
+        h4 {
+            font-size: 20px;
         }
         .minha-foto {
             display: flex;
             width: 450px;
             height: 450px;
             border-radius: 50%;
-            padding: 20px;
-            margin-right: 80px;
+            padding: 10px;
+            margin-right: 10px;
+            margin: 10px 50px;
             object-fit: cover;
 
         }
@@ -84,11 +90,22 @@
             display: flex;
             color: rgb(202, 202, 217);
             flex-direction: column;
-            border: 6px solid pink;
+            align-items: flex-start;
+            text-align: left;
             
+        }
+        #sobre-mim ul {
+            display: flex;
+            list-style: none;
+            font-size: 20px;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            gap: 20px;
         }
         #sobre-mim h2 {
             font-size: 30px;
+            text-align: left;
         }
         #sobre-mim p {
             font-size: 20px;
@@ -96,9 +113,8 @@
         /*Bloco 2*/
         #habilidades-e-ferramentas img {
             display: flex;
-            border: 4px solid rgb(134, 112, 244);
-            width: 200px;
-            height: 200px;
+            width: 180px;
+            height: 180px;
             
         }
         #habilidades-e-ferramentas h2 {
@@ -111,6 +127,34 @@
             padding: 40px;
             background: rgb(66, 65, 65);
         }
+        /*Bloco3*/
+        #projetos {
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            border: 5px solid green;
+        }
+        #projetos h2 {
+            display: flex;
+            justify-content: center;
+        }
+        .links-projetos {
+            display: flex;
+            border: 8px solid black;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+        }
+        #projetos a {
+            display: flex;
+            gap: 20px;
+            border: 4px solid red;
+
+        } 
+        #projetos h2 {
+            font-size: 20px;
+        }
+        
 
         /*colocar hover nos links
         ver melhor cor para os textos
