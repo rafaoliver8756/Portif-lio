@@ -5,9 +5,14 @@
         padding:0;
         color: #ffff;
         font-family: "JetBrains Mono";
-        background-image: linear-gradient(to right, #a5aacc, #121212);
+        background: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%);
         }
-
+        h1, h2, nav {
+            font-family: "JetBrains Mono", monospace;
+        }
+        p, li {
+            font-family:"Inter", sans-serif;
+        }
         .botao-nav button{
             display: flex;
             justify-content: space-between;
@@ -55,7 +60,9 @@
             font-size: 20px;
         }
     
-        
+        .navegacao-inicial a:hover {
+            color: rgb(144, 114, 95);
+        }
         a {
             color: white;
             text-decoration: none;
@@ -102,13 +109,16 @@
             padding: 0;
             margin: 0;
             gap: 20px;
+            color: #94a3b8;
         }
         #sobre-mim h2 {
             font-size: 30px;
             text-align: left;
+            color: #f0f4f8;
         }
         #sobre-mim p {
             font-size: 20px;
+            color: #cbd5e1;
         }
         /*Bloco 2*/
         #habilidades-e-ferramentas img {
@@ -131,8 +141,11 @@
         #projetos {
             display: flex;
             gap: 20px;
-            flex-direction: column;
-            border: 5px solid green;
+            flex-direction: column;.card-projeto {
+            background: #232936;
+            border: 1px solid #334155;
+            border-radius: 12px;
+}
         }
         #projetos h2 {
             display: flex;
@@ -156,8 +169,7 @@
         }
         
 
-        /*colocar hover nos links
-        ver melhor cor para os textos
+        /*ver melhor cor para os textos
         tirar bordas coloridas
         colocar click no botão
         responsividade
