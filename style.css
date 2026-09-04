@@ -5,59 +5,52 @@
         padding:0;
         color: #ffff;
         font-family: "JetBrains Mono";
-        background: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%);
-        }
-        h1, h2, nav {
-            font-family: "JetBrains Mono", monospace;
-        }
-        p, li {
-            font-family:"Inter", sans-serif;
-        }
-        .botao-nav button{
-            display: flex;
-            justify-content: space-between;
-            width: 30px;
-            height: 20px; 
-            background: transparent;
-            flex-direction: column;
-            border: none;
-            padding: 0;
-            margin: 0;
-            gap: 5px;
-            
+        background: linear-gradient(135deg, #0a0e17 0%, #111827 50%, #0f0a1a 100%);
 
         }
-        .botao-nav span { 
-        display: block;
-        width: 100%;              
-        height: 3px;
-        background-color: white;
-        border-radius: 3px;
-        
+        h1, h2, p, li nav {
+            font-family: "JetBrains Mono", monospace;
+        }
+        .logo {
+            display: flex;
+            font-size: 24px; 
+            color: #a78bfa;
+            border: 2px solid pink;
+            align-items: baseline;
+            
+        }
+        .links {
+            display: flex;
+            text-decoration: none;
+            border: 8px solid brown;
 
         }
         nav {
             display: flex;
             align-items: center;
-            justify-content: space-between;
             padding: 20px 40px;
+            border: 2px solid blue;
+
         }
         .navegacao-inicial {
             display: flex;
-            align-items: center;
             padding-right: 80px;
-            text-decoration: none;
             gap: 40px;
             font-size: 16px;
             font-family: "JetBrains Mono";
-            justify-content:flex-end;
             margin: 0;
             padding: 0;
+            border: 2px solid green;
         }
-        .navegacao-inicial li {
+        .navegacao-inicial ul {
             display: flex;
             list-style: none;
             font-size: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            margin-right: 20px;
+            gap: 20px;
+            border: 8px solid rgb(183, 220, 16);
         }
     
         .navegacao-inicial a:hover {
@@ -69,12 +62,13 @@
         }
 
         /*nevagação encerrada*/
+        #sobre-mim h1 {
+            font-size: 40px;
+        }
         .bloco1 {
             display:flex;
             flex-direction: row-reverse; 
-            padding: 20px 50px 50px 50px;
-            
-
+            padding: 20px 50px 50px 50px;   
         }
         h4 {
             font-size: 20px;
@@ -109,7 +103,7 @@
             padding: 0;
             margin: 0;
             gap: 20px;
-            color: #94a3b8;
+            color: #cbd5e1;
         }
         #sobre-mim h2 {
             font-size: 30px;
@@ -129,6 +123,8 @@
         }
         #habilidades-e-ferramentas h2 {
             font-size: 40px;
+            display: flex;
+            justify-content: center;
         }
         .fotos-ferramentas{
             display: flex;
@@ -150,6 +146,7 @@
         #projetos h2 {
             display: flex;
             justify-content: center;
+            font-size: 38px;
         }
         .links-projetos {
             display: flex;
@@ -164,9 +161,6 @@
             border: 4px solid red;
 
         } 
-        #projetos h2 {
-            font-size: 20px;
-        }
         
 
         /*ver melhor cor para os textos
