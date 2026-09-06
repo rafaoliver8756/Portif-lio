@@ -56,9 +56,30 @@
             color: rgb(144, 114, 95);
         }
         /*nevagação encerrada*/
-        .saudacao {
+        #sobre-mim {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding-left: 40px;
+        }
+        #sobre-mim .saudacao {
             color: #a78bfa;
-
+            font-size: 18px;
+            font-family:"JetBrains Mono", monospace;
+        }
+        .titulo-nome {
+            color: #f8fafc;
+            font-size: 48px;
+            font-family:"Space Grotesk", sans-serif;
+        }
+        .nao-sei {
+            color: #8b5cf6;
+            font-family: "JetBrains Mono", monospace;
+        }
+       
+        #sobre-mim p {
+            color: #cbd5e1;
+            font-size: 16px;
         }
         .bloco1 {
             display:flex;
@@ -82,14 +103,6 @@
         .minha-foto img {
             clip-path: circle(50%);
         } 
-        #sobre-mim {
-            display: flex;
-            color: rgb(202, 202, 217);
-            flex-direction: column;
-            align-items: flex-start;
-            text-align: left;
-            
-        }
         #sobre-mim ul {
             display: flex;
             list-style: none;
