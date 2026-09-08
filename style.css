@@ -3,12 +3,12 @@
     * {
         box-sizing: border-box; /*padding e border entram dentro do width, não somam ao tamanho total*/
     }
-    body {
-        margin: 0;
-        padding:0;
-        color: #ffff;
-        font-family: "JetBrains Mono";
-        background: rgb(51, 50, 50);
+        body {
+            margin: 0;
+            padding:0;
+            color: #ffff;
+            font-family: "JetBrains Mono";
+            background: rgb(51, 50, 50);
         }
         nav {
             display: flex;
@@ -29,7 +29,7 @@
         }
         .logo {
             display: flex;
-            padding-left: 40px;
+            padding-left: 60px;
             justify-content: center;
             color: rgb(144, 9, 206);
             font-size: 26px;
@@ -59,8 +59,19 @@
         #sobre-mim {
             display: flex;
             flex-direction: column;
+            padding-left: 60px;
+            max-width: 800px;
             gap: 20px;
-            padding-left: 40px;
+        }
+        #sobre-mim p:first-of-type {
+            
+        }
+        #sobre-mim h1, #sobre-mim p, #sobre-mim .saudacao {
+            margin: 0;
+        }
+        #sobre-mim p {
+            color: #cbd5e1;
+            font-size: 20px;
         }
         #sobre-mim .saudacao {
             color: #a78bfa;
@@ -76,24 +87,20 @@
             color: #8b5cf6;
             font-family: "JetBrains Mono", monospace;
         }
-       
-        #sobre-mim p {
-            color: #cbd5e1;
-            font-size: 16px;
-        }
+        /*bloco 1*/
         .bloco1 {
             display:flex;
             flex-direction: row-reverse; 
-            padding: 20px 50px 50px 50px;   
-        }
-        h4 {
-            font-size: 20px;
+            padding: 20px 50px 50px 50px; 
+            justify-content: flex-end;
+            margin-bottom: 40px;
+            margin-top: 40px;
+              
         }
         .minha-foto {
             display: flex;
             width: 450px;
             height: 450px;
-            border-radius: 50%;
             padding: 10px;
             margin-right: 10px;
             margin: 10px 50px;
@@ -103,25 +110,7 @@
         .minha-foto img {
             clip-path: circle(50%);
         } 
-        #sobre-mim ul {
-            display: flex;
-            list-style: none;
-            font-size: 20px;
-            flex-direction: column;
-            padding: 0;
-            margin: 0;
-            gap: 20px;
-            color: #cbd5e1;
-        }
-        #sobre-mim h2 {
-            font-size: 30px;
-            text-align: left;
-            color: #f0f4f8;
-        }
-        #sobre-mim p {
-            font-size: 20px;
-            color: #cbd5e1;
-        }
+        
         /*Bloco 2*/
         #habilidades-e-ferramentas img {
             display: flex;
