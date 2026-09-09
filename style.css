@@ -4,7 +4,7 @@
         box-sizing: border-box; /*padding e border entram dentro do width, não somam ao tamanho total*/
     }
         body {
-            margin: 0;
+            margin: auto 0;
             padding:0;
             color: #ffff;
             font-family: "JetBrains Mono";
@@ -16,6 +16,7 @@
             align-items: baseline;
             width: 100%;
             justify-content: space-between;
+            text-shadow: 0 0 20px rgba(167, 139, 250, 0.5);
             position: relative; /*para ativar o after*/
         }
         nav::after {
@@ -31,10 +32,13 @@
             display: flex;
             padding-left: 60px;
             justify-content: center;
-            color: rgb(144, 9, 206);
+            color: #ffff;
             font-size: 26px;
             text-decoration: none;
-
+            text-shadow: 0 2 10px rgba(255, 255, 255, 0.5), 0 0 14px rgba(167, 139, 250, 0.5);
+        }
+        .logo span {
+            color: rgb(144, 9, 206);
         }
         .links-nav ul {
             display: flex;
@@ -46,6 +50,7 @@
         .links-nav a {
             text-decoration: none;
             color: white;
+            text-shadow: 0 0 3px rgba(255, 255, 255, 0.4), 0 0 10px rgba(167, 139, 250, 0.35);
         }
     
         h1, h2, p, li nav {
@@ -53,7 +58,7 @@
         }
         
         .links-nav a:hover {
-            color: rgb(144, 114, 95);
+            color: #a78bfa;
         }
         /*nevagação encerrada*/
         #sobre-mim {
@@ -62,9 +67,7 @@
             padding-left: 60px;
             max-width: 800px;
             gap: 20px;
-        }
-        #sobre-mim p:first-of-type {
-            
+            text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
         }
         #sobre-mim h1, #sobre-mim p, #sobre-mim .saudacao {
             margin: 0;
@@ -77,15 +80,20 @@
             color: #a78bfa;
             font-size: 18px;
             font-family:"JetBrains Mono", monospace;
+            text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
         }
         .titulo-nome {
             color: #f8fafc;
             font-size: 48px;
             font-family:"Space Grotesk", sans-serif;
+            text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
+            text-shadow: 0 0 4px rgba(167, 139, 250, 0.8), 0 0 20px rgba(167, 139, 250, 0.4);
         }
         .nao-sei {
             color: #8b5cf6;
             font-family: "JetBrains Mono", monospace;
+            text-shadow: 0 0 16px rgba(139, 92, 246, 0.7);
+            text-shadow: 0 0 1px rgba(167, 139, 250, 0.8), 0 0 20px rgba(167, 139, 250, 0.4);
         }
         /*bloco 1*/
         .bloco1 {
@@ -94,7 +102,7 @@
             padding: 20px 50px 50px 50px; 
             justify-content: flex-end;
             margin-bottom: 40px;
-            margin-top: 40px;
+            margin-top: 80px;
               
         }
         .minha-foto {
