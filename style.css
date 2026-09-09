@@ -124,7 +124,6 @@
             display: flex;
             width: 140px;
             height: 140px;
-            
         }
         #habilidades-e-ferramentas h2 {
             font-size: 40px;
@@ -148,11 +147,13 @@
             gap: 12px;
             border-radius: 12%;
             border: 2px solid #334155;
-            transition: transform 0.2s ease, border-color 0.2s ease;
+            box-shadow: 0 0 12px rgba(167, 139, 250, 0.15);
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
         }
         .cards:hover {
             transform: translatey(-4px);
             border-color: #a78bfa;
+            box-shadow: 0 0 20px rgba(167, 139, 250, 0.4);
         }
         .cards span {
             color: #cbd5e1;
