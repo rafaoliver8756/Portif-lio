@@ -161,32 +161,46 @@
             font-size: 14px;
         }
         /*Bloco3*/
-        #projetos {
-            display: flex;
-            gap: 20px;
-            flex-direction: column;.card-projeto {
-            background: #232936;
-            border: 1px solid #334155;
-            border-radius: 12px;
-}
-        }
-        #projetos h2 {
+        
+        .projetos h2 {
+            font-size: 45px;
             display: flex;
             justify-content: center;
-            font-size: 38px;
+        }
+        .projetos {
+            display: flex;
+            flex-direction: column;
+            
+            
         }
         .links-projetos {
             display: flex;
-            border: 8px solid black;
             flex-direction: row;
+            gap: 20px;
             justify-content: center;
-            gap: 20px;
         }
-        #projetos a {
+        .projeto1, .projeto2, .projeto3, .projeto4 {
             display: flex;
-            gap: 20px;
-            border: 4px solid red;
-
+            background: #1e1e24;
+            height: 250px;
+            width:350px;
+            gap: 50px;
+            border: 1px solid rgba(167, 139, 250, 0.3);
+            border-radius: 14px;
+            flex-direction: column;
+            background: #1e1e24;
+            overflow: hidden;
+            box-shadow: 0 0 18px rgba(167, 139, 250, 0.15);
+            border: 4ps solid green;
+            justify-content: center;
+        }
+        .projeto1 img {
+            width: 100%;       
+            height: 160px;
+            object-fit: cover;
+        }
+        .projetos a {
+            border: 4px solid rgb(12, 234, 179);
         } 
         
 
