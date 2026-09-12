@@ -170,8 +170,6 @@
         .projetos {
             display: flex;
             flex-direction: column;
-            
-            
         }
         .links-projetos {
             display: flex;
@@ -182,9 +180,8 @@
         .projeto1, .projeto2, .projeto3, .projeto4 {
             display: flex;
             background: #1e1e24;
-            height: 250px;
-            width:350px;
-            gap: 50px;
+            height: 1000px; /*aqui e 300 ta? esquece não*/
+            width: 1000px;
             border: 1px solid rgba(167, 139, 250, 0.3);
             border-radius: 14px;
             flex-direction: column;
@@ -193,16 +190,58 @@
             box-shadow: 0 0 18px rgba(167, 139, 250, 0.15);
             border: 4ps solid green;
             justify-content: center;
+            
+
+        }
+        .projetos {
+            padding-left: 60px;
         }
         .projeto1 img {
             width: 100%;       
-            height: 160px;
+            height: 100%;
             object-fit: cover;
+            padding: 8px;
+            border-radius: 14px;
         }
         .projetos a {
-            border: 4px solid rgb(12, 234, 179);
+            border: 4px solid rgb(10, 124, 96);
+            text-decoration: none;
+            color: white;
+
         } 
-        
+        .linguagens {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+
+        }
+        .projeto1 p {
+            font-size: 14px;
+            display: flex;
+            border: 5px solid rgb(235, 198, 15);
+        } 
+        .ling {
+            color: rgb(28, 239, 39);
+            border: 1px solid rgba(167, 139, 250, 0.4);
+            gap: 20px;
+            background: transparent;
+            border-radius: 8px;
+            padding: 4px 12px;
+            color: #a78bfa;
+            font-size: 12px;
+            font-family: "JetBrains Mono", monospace;
+        }
+        .ling span {
+            border: 5px solid rgb(59, 235, 6);
+            
+        }
+        .contato li {
+  display: flex;         /* Ativa o Flexbox */
+  flex-wrap: wrap;       /* Permite quebrar linha quando faltar espaço */
+  gap: 10px;             /* Cria um espaço entre as caixas */
+}
 
         /*ver melhor cor para os textos
         tirar bordas coloridas
