@@ -180,33 +180,38 @@
         .projeto1, .projeto2, .projeto3, .projeto4 {
             display: flex;
             background: #1e1e24;
-            height: 1000px; /*aqui e 300 ta? esquece não*/
-            width: 1000px;
+            height: auto;
+            width: 300px;
+            min-height: 200px;
             border: 1px solid rgba(167, 139, 250, 0.3);
             border-radius: 14px;
             flex-direction: column;
             background: #1e1e24;
             overflow: hidden;
             box-shadow: 0 0 18px rgba(167, 139, 250, 0.15);
-            border: 4ps solid green;
-            justify-content: center;
+            justify-content: flex-start;
             
 
         }
         .projetos {
-            padding-left: 60px;
+            padding: 60px;
+            
         }
-        .projeto1 img {
-            width: 100%;       
-            height: 100%;
-            object-fit: cover;
+        .projeto1 img, .projeto2 img, .projeto3 img, .projeto4 img {
+            width: 100%;
+            height: auto;
+            flex-shrink: 0;
+            object-fit: contain;
+            display: block;
             padding: 8px;
             border-radius: 14px;
         }
         .projetos a {
-            border: 4px solid rgb(10, 124, 96);
             text-decoration: none;
             color: white;
+            font-size: 16px;
+            font-family: "JetBrains Mono", monospace;
+            padding: 0 8px 0 8px;
 
         } 
         .linguagens {
@@ -217,31 +222,27 @@
             padding: 10px;
 
         }
-        .projeto1 p {
-            font-size: 14px;
+        .projeto1 p, .projeto2 p, .projeto3 p, .projeto4 p {
+            font-size: 12px;
             display: flex;
-            border: 5px solid rgb(235, 198, 15);
+            padding: 0 8px 0 8px;
+            font-family: "JetBrains Mono", monospace;
+
         } 
         .ling {
             color: rgb(28, 239, 39);
-            border: 1px solid rgba(167, 139, 250, 0.4);
+            border: 2px solid rgba(167, 139, 250, 0.4);
             gap: 20px;
             background: transparent;
             border-radius: 8px;
-            padding: 4px 12px;
             color: #a78bfa;
             font-size: 12px;
             font-family: "JetBrains Mono", monospace;
         }
-        .ling span {
-            border: 5px solid rgb(59, 235, 6);
-            
-        }
         .contato li {
-  display: flex;         /* Ativa o Flexbox */
-  flex-wrap: wrap;       /* Permite quebrar linha quando faltar espaço */
-  gap: 10px;             /* Cria um espaço entre as caixas */
-}
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;}
 
         /*ver melhor cor para os textos
         tirar bordas coloridas
