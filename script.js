@@ -4,7 +4,7 @@ tsParticles.load("tsparticles", {
     fpsLimit: 60,
     particles: {
         number: { value: 80 },
-        color: { value: "#8b5cf6" },
+        color: { value: "#6a49b8" },
         shape: { type: "circle" },
         opacity: { value: 0.8 },
         size: { value: { min: 2, max: 5 } },
