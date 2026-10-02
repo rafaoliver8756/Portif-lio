@@ -190,11 +190,17 @@
             overflow: hidden;
             box-shadow: 0 0 18px rgba(167, 139, 250, 0.15);
             justify-content: flex-start;
+            background: linear-gradient(#1e1e24, #1e1e24) padding-box,
+            linear-gradient(135deg, #8b5cf6, #3b82f6, #ec4899) border-box;
+            box-shadow: 0 0 10px rgba(139, 92, 246, 0.4),
+            0 0 40px rgba(59, 130, 246, 0.2);
             
 
         }
         .projetos {
             padding: 60px;
+            gap: 20px;
+            border: 5px solid #ffff;
             
         }
         .projeto1 img, .projeto2 img, .projeto3 img, .projeto4 img {
@@ -203,7 +209,7 @@
             flex-shrink: 0;
             object-fit: contain;
             display: block;
-            padding: 8px;
+            padding: 10px;
             border-radius: 14px;
         }
         .projetos a {
@@ -242,7 +248,18 @@
         .contato li {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;}
+            gap: 10px;
+            
+        }
+        .contato a {
+            color: white;
+            
+        }
+        .contato img {
+            width: 50px;
+            height: 50px;
+        }
+    
 
         /*ver melhor cor para os textos
         tirar bordas coloridas
